@@ -2,11 +2,10 @@
  * Module dependencies
  */
 
-var escape = require('base64-url').escape;
+var d64 = require('d64');
 var uuid = require('uuid');
 
 module.exports = function toBase64(id) {
   var bytes = uuid.parse(id);
-  var base64 = (new Buffer(bytes)).toString('base64');
-  return escape(base64);
+  return d64.encode(bytes);
 };

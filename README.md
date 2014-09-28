@@ -12,8 +12,8 @@ Compress a UUID to 22 characters
 
 ```js
 var base64 = require('uuid-base64');
-base64('0e8c72e5-463f-446e-bcf2-695274d55940');
-// => Doxy5UY_RG688mlSdNVZQA
+base64('a14a9df2-8e0d-42ef-8075-5c38b0f93c03');
+// => cJeSwcsCFiy.SKksgEZw.k
 ```
 
 ## Installation
