@@ -1,6 +1,13 @@
 
 # uuid-base64
 
+[![NPM version][npm-image]][npm-url]
+[![Github release][github-image]][github-url]
+[![Build status][travis-image]][travis-url]
+[![Test coverage][coveralls-image]][coveralls-url]
+[![Dependency Status][david-image]][david-url]
+[![License][license-image]][license-url]
+
 Compress a UUID to 22 characters
 
 ```js
@@ -16,13 +23,6 @@ base64('0e8c72e5-463f-446e-bcf2-695274d55940');
 ```
 $ npm install uuid-base64
 ```
-
-[![NPM version][npm-image]][npm-url]
-[![Github release][github-image]][github-url]
-[![Build status][travis-image]][travis-url]
-[![Test coverage][coveralls-image]][coveralls-url]
-[![Dependency Status][david-image]][david-url]
-[![License][license-image]][license-url]
 
 [npm-image]: https://img.shields.io/npm/v/uuid-base64.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/uuid-base64

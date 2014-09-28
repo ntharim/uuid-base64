@@ -1,7 +1,7 @@
 {
   "name": "uuid-base64",
   "description": "",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Nathan Tran <ntran013@gmail.com>",
   "license": "MIT",
   "repository": "ntran13/uuid-base64",
