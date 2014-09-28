@@ -1,0 +1,22 @@
+{
+  "name": "uuid-base64",
+  "description": "",
+  "version": "0.0.0",
+  "author": "Nathan Tran <ntran013@gmail.com>",
+  "license": "MIT",
+  "repository": "ntran13/uuid-base64",
+  "dependencies": {
+    "base64-url": "^1.0.0",
+    "uuid": "^1.4.2"
+  },
+  "devDependencies": {
+    "istanbul": "0",
+    "mocha": "1"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot"
+  },
+  "keywords": []
+}
