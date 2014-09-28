@@ -1,7 +1,7 @@
 {
   "name": "uuid-base64",
   "description": "Compress a UUID to 22 characters",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "author": "Nathan Tran <ntran013@gmail.com>",
   "license": "MIT",
   "repository": "ntran13/uuid-base64",
